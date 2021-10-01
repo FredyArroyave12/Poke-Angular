@@ -1,0 +1,49 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem;
+}
+
+.welcome-image {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+
+.welcome-message {
+  margin: 5rem;
+  margin-top: 3rem;
+  padding: 1rem;
+  font-size: 5rem;
+  color: var(--white);
+  font-weight: 700;
+}
+
+.favorite-title {
+  margin: auto;
+}
+.fav-title {
+  font-size: 3rem;
+  color: var(--white);
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .welcome-image {
+    margin-top: 6.5rem;
+    width: 15rem;
+  }
+
+  .welcome-message {
+    margin: 3rem;
+    margin-top: 1rem;
+    font-size: 4rem;
+  }
+}

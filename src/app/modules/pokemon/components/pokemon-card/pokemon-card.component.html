@@ -1,0 +1,15 @@
+<div class="modal-container">
+  <div class="card-modal">
+    <pokemon-card-header [currentPokemon]="currentPokemon" [comparisonPokemon]="comparisonPokemon"
+      [isComparing]="isComparing" [dialogRef]="dialogRef" [favoritePokemonList]="favoritePokemonList">
+    </pokemon-card-header>
+
+    <pokemon-card-data [currentPokemon]="currentPokemonInformation$ | async"
+      [comparisonPokemon]="comparisonPokemonInformation$ | async" [isComparing]="isComparing">
+    </pokemon-card-data>
+
+    <pokemon-card-chart [currentPokemon]="currentPokemonInformation$ | async"
+      [comparisonPokemon]="comparisonPokemonInformation$ | async" [isComparing]="isComparing">
+    </pokemon-card-chart>
+  </div>
+</div>

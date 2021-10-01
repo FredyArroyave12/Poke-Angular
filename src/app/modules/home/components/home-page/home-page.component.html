@@ -1,0 +1,11 @@
+<div class="home-page">
+  <img src="assets/images/pikaBg.gif" alt="welcome" class="welcome-image">
+  <div class="welcome">
+    <h1 class="welcome-message">Welcome</h1>
+  </div>
+  <div class="favorite-title">
+    <h2 class="fav-title">Favorite Pokemon</h2>
+  </div>
+  <app-favorite-pokemon-banner [favoritePokemonList]="favoritePokemonList$ | async"></app-favorite-pokemon-banner>
+
+</div>

@@ -1,0 +1,39 @@
+.message-container {
+  position: fixed;
+  background: var(--white);
+  border-style: solid;
+  border-color: var(--light-black);
+  border-radius: 1rem;
+  top: 11%;
+  right: 1rem;
+  margin: 0;
+}
+
+.main-message {
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+.message {
+  margin: 0.5rem;
+  padding: 0.5rem 0 0 0;
+  font-size: 1.2rem;
+  text-align: center;
+  color: var(--black);
+}
+
+@media (max-width: 900px) {
+  .box {
+    right: 2rem;
+    width: 8rem;
+  }
+
+  .main-message {
+    font-size: 0.6rem;
+  }
+
+  .message {
+    padding: 0.3rem 0 0 0;
+    font-size: 0.8rem;
+  }
+}
