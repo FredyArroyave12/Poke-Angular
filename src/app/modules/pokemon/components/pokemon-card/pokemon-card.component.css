@@ -1,0 +1,25 @@
+.mat-dialog-container {
+  padding: 0;
+}
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  cursor: pointer;
+  z-index: 10;
+  overflow: auto;
+}
+.card-modal {
+  width: 90%;
+  max-width: 700px;
+
+  margin-left: 15rem;
+  margin-top: 5rem;
+  padding-bottom: 20px;
+  background: var(--white);
+  border-radius: 1rem;
+  cursor: auto;
+}

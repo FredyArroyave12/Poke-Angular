@@ -1,0 +1,84 @@
+.comparison-information {
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--card-color);
+  border-radius: 1rem;
+  padding-bottom: 10px;
+}
+.pokemon-abilities {
+  margin: 1.5rem;
+  display: flex;
+  align-items: center;
+  background: var(--card-color);
+  border-radius: 1rem;
+  padding-bottom: 10px;
+}
+
+.comparison-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 65%;
+}
+
+.card-comparison-image {
+  margin: auto;
+  width: 100%;
+  max-width: 12rem;
+  justify-content: center;
+  image-rendering: pixelated;
+}
+
+.comparison-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  margin: 0 2rem;
+}
+
+.comparison-detail-item {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.comparison-detail-title {
+  margin: 0;
+  font-size: var(--text);
+  font-weight: 700;
+}
+
+.comparison-detail-description {
+  margin: 0 auto;
+  margin-top: 0.3rem;
+  font-weight: 100;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.comparison-detail-list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media (max-width: 900px) {
+  .comparison-images {
+    grid-gap: 1rem;
+  }
+
+  .comparison-information {
+    margin: 0.5rem;
+  }
+
+  .comparison-details {
+    margin: 0.5rem 0.5rem 0 0.5rem;
+    width: 90%;
+  }
+
+  .comparison-detail-description {
+    font-size: var(--textr);
+  }
+}

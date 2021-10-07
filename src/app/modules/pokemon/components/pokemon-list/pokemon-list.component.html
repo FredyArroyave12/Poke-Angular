@@ -1,0 +1,18 @@
+<app-alert-message message="only pick 5 favorite pokemons!" *ngIf="isFavoriteListFull"></app-alert-message>
+<app-info-message mainMessage="Comparing pokemon" [message]="currentPokemon.name" *ngIf="isComparing">
+</app-info-message>
+<div class="pokemon-list" infiniteScroll (scrolled)="loadMorePokemon()">
+  <div class="pokemon-item" *ngFor="let pokemon of pokemonListItems; index as pokemonIndex"
+    (click)="openPokemonCard(pokemon)">
+    <div>
+      <app-pokemon-favorite [pokemon]="pokemon" [favorite]="favorites[pokemonIndex]"
+        [favoritePokemonLength]="favoritePokemonListItems.length" (isFavoriteListFull)="handleIsFavoriteFull($event)">
+      </app-pokemon-favorite>
+      <img class="pokemon-image" [src]="pokemonImages[pokemonIndex]" [alt]="pokemon.name">
+    </div>
+    <h2 class="pokemon-name">
+      {{ pokemonNames[pokemonIndex] }}
+
+    </h2>
+  </div>
+</div>

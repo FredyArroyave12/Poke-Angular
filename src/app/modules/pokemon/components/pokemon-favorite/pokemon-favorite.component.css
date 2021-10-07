@@ -1,0 +1,21 @@
+.icon-fav {
+  text-align: right;
+  margin: 0.5rem;
+}
+.icon {
+  cursor: pointer;
+  font-size: var(--icon);
+  color: var(--light-black);
+}
+
+.icon:hover {
+  color: var(--fire);
+}
+
+.icon-selected {
+  color: var(--fire);
+}
+
+.big-size {
+  font-size: var(--poke-namer);
+}

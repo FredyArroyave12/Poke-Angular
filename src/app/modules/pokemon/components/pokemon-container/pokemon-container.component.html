@@ -1,0 +1,9 @@
+<div class="search">
+  <search (inputChange)="updateFilter($event)"></search>
+</div>
+<div class="pokemon-list-home">
+  <pokemon-list class="pokemon-list" [pokemonList]="pokemonList$ | async"
+    [favoritePokemonList]="favoritePokemonList$ | async" [isComparing]="isComparing$ | async"
+    [currentPokemon]="currentPokemon$ | async" [comparisonPokemon]="comparisonPokemon$ | async">
+  </pokemon-list>
+</div>
