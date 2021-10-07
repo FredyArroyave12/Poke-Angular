@@ -36,7 +36,7 @@
   text-align: center;
   background: var(--light-gray);
   color: var(--light-black);
-  font-size: 1.3rem;
+  font-size: var(--poke-namerm);
   font-weight: 600;
   text-transform: uppercase;
 }

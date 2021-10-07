@@ -12,7 +12,7 @@
   outline: none;
   margin: 1rem;
   border: 0;
-  font-size: 1.2rem;
+  font-size: var(--close-text);
   background: transparent;
   color: var(--navbar);
 }
@@ -22,7 +22,7 @@
   text-align: center;
   color: var(--pokemon-white);
   margin: 1rem;
-  font-size: 2rem;
+  font-size: var(--poke-namer);
 }
 
 .compare-button {
@@ -46,18 +46,18 @@
 @media (max-width: 900px) {
   .close-button {
     margin: 0.5rem;
-    font-size: 0.8rem;
+    font-size: var(--text);
   }
 
   .pokemon-name {
     margin: 0.5rem;
-    font-size: 1rem;
+    font-size: var(--text);
   }
 
   .compare-button {
     margin: 0.5rem;
     padding: 0.2rem;
     width: 8rem;
-    font-size: 0.8rem;
+    font-size: var(--text);
   }
 }

@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(32, 178, 171, 0.199);
+  background: var(--banner-bg);
   border-radius: 10px;
 }
 
@@ -30,7 +30,7 @@
 
 .pokemon-name {
   margin: 0;
-  font-size: 3rem;
+  font-size: var(--title);
   -webkit-text-stroke: 0.1rem var(--white);
   color: var(--white);
 }
@@ -45,6 +45,6 @@
     width: 15rem;
   }
   .pokemon-name {
-    font-size: 2rem;
+    font-size: var(--poke-namer);
   }
 }

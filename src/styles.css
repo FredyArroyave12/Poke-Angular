@@ -31,6 +31,16 @@
   --steel: #b7b7ce;
   --water: #6390f0;
   --unknown: #68a090;
+  --banner-bg: rgba(32, 178, 171, 0.199);
+  --welcome-text: 5rem;
+  --title: 3rem;
+  --poke-namer: 2rem;
+  --poke-namerm: 1.3rem;
+  --text: 1rem;
+  --close-text: 1.2rem;
+  --icon: 1.5rem;
+  --textr: 0.8rem;
+  --subtext: 0.6rem;
 }
 
 * {

@@ -12,7 +12,7 @@
   text-align: center;
   color: var(--light-black);
   margin: 1rem;
-  font-size: 2rem;
+  font-size: var(--poke-namer);
 }
 
 .card-image {
@@ -44,7 +44,7 @@
 
 .pokemon-detail-title {
   margin: 0;
-  font-size: 1rem;
+  font-size: var(--text);
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -71,7 +71,7 @@
   .pokemon-description {
     margin: 0 0.5rem;
     padding-bottom: 0.5rem;
-    font-size: 0.8rem;
+    font-size: var(--textr);
   }
 
   .pokemon-details {
@@ -84,7 +84,7 @@
 
   .pokemon-detail-description {
     margin-top: 0.2rem;
-    font-size: 0.8rem;
+    font-size: var(--textr);
   }
 
   .pokemon-detail-list {

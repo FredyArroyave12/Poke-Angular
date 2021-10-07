@@ -4,7 +4,7 @@
 }
 .icon {
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: var(--icon);
   color: var(--light-black);
 }
 
@@ -17,5 +17,5 @@
 }
 
 .big-size {
-  font-size: 2rem;
+  font-size: var(--poke-namer);
 }

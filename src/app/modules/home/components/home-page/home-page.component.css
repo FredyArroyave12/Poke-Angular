@@ -21,7 +21,7 @@
   margin: 5rem;
   margin-top: 3rem;
   padding: 1rem;
-  font-size: 5rem;
+  font-size: var(--welcome-text);
   color: var(--white);
   font-weight: 700;
 }
@@ -30,7 +30,7 @@
   margin: auto;
 }
 .fav-title {
-  font-size: 3rem;
+  font-size: var(--title);
   color: var(--white);
   font-weight: 700;
 }
@@ -44,6 +44,5 @@
   .welcome-message {
     margin: 3rem;
     margin-top: 1rem;
-    font-size: 4rem;
   }
 }

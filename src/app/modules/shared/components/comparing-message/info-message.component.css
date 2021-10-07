@@ -10,14 +10,14 @@
 }
 
 .main-message {
-  font-size: 1rem;
+  font-size: var(--text);
   margin: 0.5rem;
 }
 
 .message {
   margin: 0.5rem;
   padding: 0.5rem 0 0 0;
-  font-size: 1.2rem;
+  font-size: var(--poke-namerm);
   text-align: center;
   color: var(--black);
 }
@@ -29,11 +29,11 @@
   }
 
   .main-message {
-    font-size: 0.6rem;
+    font-size: var(--subtext);
   }
 
   .message {
     padding: 0.3rem 0 0 0;
-    font-size: 0.8rem;
+    font-size: var(--textr);
   }
 }
